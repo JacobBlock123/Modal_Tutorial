@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modal Tutorial</title>
+
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+    </head>
+
+    <body onload="showDialog()">
+        <nav>
+            <button onclick="openDialog()" id="open">Open</button>
+        </nav>
+
+        <div class="container">
+            <dialog id="dialog">
+                <button onclick="closeModal()">Submit</button>
+            </dialog>
+        </div>
+    </body>
+</html>
